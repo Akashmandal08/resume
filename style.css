@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+
+/* Body Header */
+
+#body-header{
+    height: 100vh;
+    background-image: url(wallhaven-l81qoy.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Horizontal List */
+
+.horizontal-list {
+    list-style: none;
+    padding: 0px;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a {
+    color: rgb(1, 14, 16);
+    text-decoration: none;
+    transition: color 0.5s;
+    border-bottom: 4s;
+}
+.horizontal-list a:hover{
+    color: rgb(145, 144, 144);
+    border-bottom: 2px solid rgb(229, 6, 6);
+}
+.text-center{
+    text-align: center;
+}
